@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator Machine </title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<main class="app">
+    <header>
+        <h1>Age Calculator</h1>
+        <p>Calculate Your Exact Age Instantly</p>
+    </header>
+
+    <section class="calculator">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" placeholder="Enter Your Name">
+
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob">
+
+        <button id="calculateBtn">Calculate Age</button>
+
+        <p class="greeting" id="greeting"></p>
+
+        <div class="result" id="result">
+            <div class="box">
+                <span id="years">--</span>
+                <small>Years</small>
+            </div>
+            <div class="box">
+                <span id="months">--</span>
+                <small>Months</small>
+            </div>
+            <div class="box">
+                <span id="days">--</span>
+                <small>Days</small>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        &copy;  Designed By Mohammad Minhal 
+    </footer>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
